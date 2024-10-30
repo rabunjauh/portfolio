@@ -276,6 +276,7 @@ section {
   a,
 .projects .projects__container .projects__content .projects__desc p a {
   color: #fff;
+  margin-left: 0.5em;
 }
 
 .projects .projects__container .projects__content .projects__desc p a {
