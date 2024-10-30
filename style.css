@@ -273,8 +273,13 @@ section {
   .projects__content
   .content-header
   .projects__link
-  a {
+  a,
+.projects .projects__container .projects__content .projects__desc p a {
   color: #fff;
+}
+
+.projects .projects__container .projects__content .projects__desc p a {
+  font-weight: 700;
 }
 
 .projects .projects__content .projects__desc {
