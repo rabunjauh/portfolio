@@ -25,3 +25,9 @@ window.onscroll = function () {
     }
   }
 };
+
+const navbarHamburger = document.querySelector("#navbar__hamburger");
+
+navbarHamburger.onclick = function () {
+  document.querySelector(".navbar__nav").classList.toggle("navbar__show");
+};
