@@ -6,13 +6,12 @@ window.onscroll = function () {
   const wScroll = window.scrollY;
 
   const about = document.querySelector("#about .container");
-  console.log(about);
 
   const rectAbout = about.getBoundingClientRect();
 
   const aboutToTop = rectAbout.top;
 
-  if (wScroll > aboutToTop - 100) {
+  if (wScroll > aboutToTop - 200) {
     about.classList.add("about__container__show");
   }
 
